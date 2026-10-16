@@ -57,6 +57,7 @@ tokio = { workspace = true, features = ["fs"] }
 env_logger = "0.11"
 dhat = "0"
 futures = { workspace = true }
+hegeltest = "0.49"
 
 [[bench]]
 name = "simple_lru_memory"
