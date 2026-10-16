@@ -20,6 +20,7 @@ ahash = { workspace = true }
 [dev-dependencies]
 rand = "0.8"
 dashmap = "5"
+hegeltest = "0.49"
 dhat = "0"
 float-cmp = "0.9.0"
 

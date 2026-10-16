@@ -24,3 +24,8 @@ pingora-error = { version = "0.9.0", path = "../pingora-error" }
 [features]
 default = []
 patched_http1 = []
+
+[dev-dependencies]
+hegeltest = "0.49"
+httparse = { workspace = true }
+http = { workspace = true }

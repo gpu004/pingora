@@ -2354,6 +2354,10 @@ pub mod range_filter {
             .to_string()
             .contains("cache multipart progress mismatch: body_filter_idx=3, cache_reader_idx=1"));
     }
+
+    #[cfg(test)]
+    #[path = "hegel_range_filter_tests.rs"]
+    mod hegel_tests;
 }
 
 // a state machine for proxy logic to tell when to use cache in the case of

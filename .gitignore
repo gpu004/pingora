@@ -7,3 +7,6 @@ dhat-heap.json
 .cover
 bleeper.user.toml
 .DS_Store
+
+# Hegel property-test artifacts
+.hegel/
