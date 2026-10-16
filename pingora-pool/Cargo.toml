@@ -27,6 +27,7 @@ futures = { workspace = true }
 pingora-timeout = { version = "0.9.0", path = "../pingora-timeout" }
 
 [dev-dependencies]
+hegeltest = "0.49"
 tokio-test = "0.4"
 
 [lints]

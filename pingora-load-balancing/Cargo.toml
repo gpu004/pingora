@@ -33,6 +33,7 @@ http = { workspace = true }
 derivative.workspace = true
 
 [dev-dependencies]
+hegeltest = "0.49"
 
 [features]
 default = []
